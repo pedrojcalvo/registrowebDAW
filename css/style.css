@@ -71,57 +71,57 @@ body {
 }
 
 .sectionForm {
-height:400px;
-width: 600px;
-background-color:rgba(253, 250, 250, 0.911);
-box-shadow: 0 0 15px 5px rgba(0,0,0,.5);
+    height:400px;
+    width: 600px;
+    background-color:rgba(253, 250, 250, 0.911);
+    box-shadow: 0 0 15px 5px rgba(0,0,0,.5);
 }
   
 #Register {
-padding: 15px 15px 15px 15px;
-font-family: 'Comfortaa', cursive;
-position: relative;
+    padding: 15px 15px 15px 15px;
+    font-family: 'Comfortaa', cursive;
+    position: relative;
 }
   
 .inputSection {
-margin-bottom:12px;
+    margin-bottom:12px;
 }
 
 .inputText {
-position:absolute;
-font-family: 'Comfortaa', cursive;
-left: 150px;
-outline: none;
-border:none;
-border-bottom: 1px solid #111;
-color: rgba(0,0,0,.8);
-font-size:16px;
+    position:absolute;
+    font-family: 'Comfortaa', cursive;
+    left: 150px;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid #111;
+    color: rgba(0,0,0,.8);
+    font-size:16px;
 }
   
 .acceptSection {
-margin-bottom:20px;
+    margin-bottom:20px;
 }
   
 .formBox {
-height:20px;
-width:20px;
-position:relative;
-top:5px;
+    height:20px;
+    width:20px;
+    position:relative;
+    top:5px;
 }
   
 .formHeader {
-margin-top:-20px;
+    margin-top:-20px;
 }
   
 .formHeading {
-padding-left: 15px;
-font-size: 50px;
-background-image:linear-gradient(120deg, rgb(254, 254, 255), rgba(8, 0, 8, 0.9) 25%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-font-family: 'Righteous', cursive;
-margin-bottom:10px;
-line-height:60px;
+    padding-left: 15px;
+    font-size: 50px;
+    background-image:linear-gradient(120deg, rgb(254, 254, 255), rgba(8, 0, 8, 0.9) 25%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Righteous', cursive;
+    margin-bottom:10px;
+    line-height:60px;
 }
 
 a{
@@ -129,55 +129,55 @@ a{
 }
 
 .submitButton {
-background-image:linear-gradient(120deg, rgb(2, 2, 2), rgba(248, 245, 246, 0.9));
-margin:auto;
-display:flex;
-width:180px;
-height:60px;
-color: #FFF;
-font-size: 30px;
-font-family: 'Righteous', cursive;
-cursor:pointer;
-border:none;
-transform: scale(1);
-justify-content:center;
+    background-image:linear-gradient(120deg, rgb(2, 2, 2), rgba(248, 245, 246, 0.9));
+    margin:auto;
+    display:flex;
+    width:180px;
+    height:60px;
+    color: #FFF;
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+    cursor:pointer;
+    border:none;
+    transform: scale(1);
+    justify-content:center;
 }
 
 .submitButton:hover {
-transform: scale(1.1);
+    transform: scale(1.1);
 }
   
 .logoImg {
-position:absolute;
-height: 150px;
-width:auto;
-top: -40px;
-right: 40px;
+    position:absolute;
+    height: 150px;
+    width:auto;
+    top: -40px;
+    right: 40px;
 }
   
 .optionalSection {
-height:50px;
-width:300px;
-background-color:#FFF;
-position: relative;
-left: 320px;
-bottom:0px;
+    height:50px;
+    width:300px;
+    background-color:#FFF;
+    position: relative;
+    left: 320px;
+    bottom:0px;
 }
   
 .changeButton {
-border:none;
-outline: none;
-background-color: transparent;
-font-family: 'Righteous', cursive;
-background-color: rgba(8, 0, 8, 0.9);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-cursor:pointer;
-position:absolute;
-right: 8px;
-top: 12px;
-font-size: 20px;
-transform: scale(1);
+    border:none;
+    outline: none;
+    background-color: transparent;
+    font-family: 'Righteous', cursive;
+    background-color: rgba(8, 0, 8, 0.9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor:pointer;
+    position:absolute;
+    right: 8px;
+    top: 12px;
+    font-size: 20px;
+    transform: scale(1);
 }
   
 .changeButton:hover {
