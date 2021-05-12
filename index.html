@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa|Pacifico|Righteous|Teko" rel="stylesheet">
+        <title>Login- and register form design</title>
+    </head>
+
+<body>
+    <div class="main-container">
+        <div class="BB-top-part"></div>
+        <section id="SelectButton" class="selectButtonArea">
+            <button id="SelectRegister" class="selectButton" onclick="openRegister();">Registro</button>
+            <button id="SelectLogin" class="selectButton" onclick="openLogin();">Acceso</button>
+        </section>
+        <section id="RegisterForm" class="sectionForm">
+            <div class="formHeader">
+                <h1 class="formHeading">Registro</h1>
+                <button class="backBtn" onclick="backBegin();">&#10006;</button>
+            </div>
+            <form id="Register" action="mailto:pedrojcalvo@gmail.com" method="post" enctype="multipart/form-data" target="_blank">
+                <div class="inputSection">
+                    <label for="Username">Usuario: </label>
+                    <input type="text" id="Username" class="inputText" required placeholder="username">
+                    <span class="focus-border"></span>
+                </div>
+                <div class="inputSection">
+                    <label for="Email">Email: </label>
+                    <input type="email" id="Email" class="inputText" required placeholder="email">
+                    <span class="focus-border"></span>
+                </div>
+                <div class="inputSection">
+                    <label for="Password">Contraseña: </label>
+                    <input type="password" id="Password" class="inputText" required placeholder="password">
+                    <span class="focus-border"></span>
+                </div>
+                <div class="inputSection">
+                    <label for="C-Password">Confirmación: </label>
+                    <input type="password" id="C-Password" class="inputText" required placeholder="password"><br><br>
+                    <span class="focus-border"></span>
+                </div>
+                <img class="logoImg" src="imagenes/logo.png">
+                <div class="acceptSection">
+                    <input id="AcceptPolicy" class="formBox" type="checkbox" required>
+                    <span class="formText">Lee los términos y condiciones de uso y acéptalos antes de registrarte.</span><br>
+                    <input id="AcceptNewsletter" class="formBox" type="checkbox">
+                    <span class="formText">Permítenos enviarte actualizaciones y noticias de nuestros productos.</span>
+                </div>
+                <div class="formFooter">
+                    <button class="submitButton" type="submit" id="SubmitForm">Registro</button>
+                </div>
+            </form>
+            <div class="optionalSection">
+                <span class="inputText sizeBack">¿Tienes ya una cuenta?</span>
+                <button class="changeButton" type="button" id="GoLogin" onclick="openLogin();">Acceso</button>
+            </div>
+            <div class="boxShadow"></div>
+        </section>
+        <section id="LoginForm" class="sectionForm reSize">
+            <div class="formHeader">
+                <h1 class="formHeading">Acceso</h1>
+                <button class="backBtn" onclick="backBegin();">&#10006;</button>
+            </div>
+            <form id="Register" action="mailto:pedrojcalvo@gmail.com" method="post" enctype="multipart/form-data" target="_blank">
+                <div class="inputSection">
+                    <label for="Username">Usuario: </label>
+                    <input type="text" id="L-Username" class="inputText" required placeholder="username">
+                </div>
+                <div class="inputSection">
+                    <label for="Email">Email: </label>
+                    <input type="email" id="L-Email" class="inputText" required placeholder="email">
+                </div>
+                <div class="inputSection">
+                    <label for="Password">Contraseña: </label>
+                    <input type="password" id="L-Password" class="inputText" required placeholder="password"><br><br>
+                </div>
+                <img class="logoImg" src="imagenes/logo.png"
+                    alt="Your browser does not support img">
+                <div class="acceptSection">
+                    <input id="AcceptRelogin" class="formBox" type="checkbox">
+                    <span class="formText">Quiero conectarme automáticamente.</span>
+                </div>
+                <div class="formFooter">
+                    <button class="submitButton" type="submit" id="SubmitForm" value="Submit"> <a href="web/index.html">Login</a></button>
+                </div>
+            </form>
+            <div class="optionalSection">
+                <span class="inputText sizeBack">¿No tienes una cuenta?</span>
+                <button class="changeButton" type="button" id="GoRegister" onclick="openRegister();">Registro</button>
+            </div>
+            <div class="boxShadow"></div>
+        </section>
+        <div class="BB-bottom-part">
+            <div class="white-part"></div>
+            <div class="black-line"></div>
+        </div>
+    </div>
+    
+
+</body>
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script src="js/script.js"></script>
+<script src="https://use.fontawesome.com/7dddae9ad9.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+</html>
